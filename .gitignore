@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (VERY IMPORTANT)
+*.parquet
+*.csv
+*.xlsx
+*.xls
+
+# Models
+*.joblib
+*.pkl
+*.h5
+
+# CatBoost (IMPORTANT for your project)
+catboost_info/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# VS Code
+.vscode/
+
+# Build
+dist/
+build/
